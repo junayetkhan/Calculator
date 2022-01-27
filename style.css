@@ -17,18 +17,12 @@ body {
      margin-top: 300px; 
      left: 40%; 
      right: 40%;
-     /* transform: translate(-50%, -50%); */
      width: 400px;
-     height: 400px; 
-   
-     
-     
-   
-    
+     height: 400px;     
         
 }
 table {
-    border-collapse: collapse;
+    
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
     border:2px solid;
