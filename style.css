@@ -1,64 +1,54 @@
-*{
-    margin:0;
-    padding:0;
-    
-}
 body {
-   
     background-image: url(background2.jpg);
-    
-    background-position: center;
-    height: 400px;
-    width: 100%;
 }
-.calculator-body {
+.calculator-body{
     position: absolute;
     top: -200px;
      margin-top: 300px; 
      left: 40%; 
      right: 40%;
      width: 400px;
-     height: 400px;     
-        
-}
-table {
-    
-    background-color: #fff;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
-    border:2px solid;
-    margin-right: -50px;
-  
-}
-td {
-    text-align: center;
-    color: #fff1;
-    border: 2px solid #191919;
+     height: 400px;
     
 }
-input[type="button"] {
-    width: 90px;
-    height: 82px;
-    color: #fff;
-    background-color: black;
-    font-size: 2rem;
-    border: none;
-    cursor: pointer;
-    transition: 0.2s ease-in-out;
-    
+td{
+height: 100px;
+width: 115px;
+margin: 200px;
+background-color: rgb(12, 12, 12);
+text-align: center;
+color: white;
+
 
 }
-input[type="button"]:hover {
-    background-color: #19d;
-    
+input, button{
+    width: 100px;
+    padding: 25px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    border: none;
     
 }
-input[type="text"] {
-    width: 340px;
-    height: 82px;
-    text-align: right;
-    margin:10px;
-    padding: 3px;
-    outline: none !important;
-    border: none !important;
-    font-size: 30px;
+input, text{
+    font-size: 2rem;
+    text-align: center;
+    /* background-color: white; */
+    
+}
+tr{
+    width: 100px;
+    height: 100px;
+}
+#result{
+    width: 420px;
+    height: 50px;
+    font-size: 50px;
+    background-color: black;
+    color: rgb(247, 243, 243);
+}
+input:hover{
+    
+    background-color: #19d;
 }
